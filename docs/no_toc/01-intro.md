@@ -3,90 +3,46 @@
 
 # Introduction
 
+<img src="resources/images/01-intro_files/figure-html//1ME0NbcIBmnHJRhX3JJyCwJuuomkl_BjJp6lD5oD5WnU_gd422c5de97_0_0.png" width="100%" />
 
-## Motivation
-
+This is a *living* course meaning it is constantly changing and being updated. The goal for this course is to be a "wikipedia" of imaging data.
+If you'd like to contribute, [you can file a pull request on GitHub](https://github.com/fhdsl/Cancer_Imaging_Informatics) if you are comfortable with that sort of thing or email `csavonen@fredhutch.org` to ask how to get started.
 
 ## Target Audience  
 
-The course is intended for ...
+The course is intended for students in the biomedical sciences and researchers who have been given imaging data and don't know what to do with it or would like an overview of the different imaging data types that are out there.
+
+_This course is written for individuals who:_   
+
+- Have imaging data and don’t know what to do with it.
+- Want a basic overview of imaging data types.
+- Want to find resources for processing and interpreting imaging data.
+
+<img src="resources/images/01-intro_files/figure-html//1ME0NbcIBmnHJRhX3JJyCwJuuomkl_BjJp6lD5oD5WnU_g116525eff64_0_96.png" title="For individuals who: Have imaging data and don’t know what to do with it. Want a basic overview of their imaging data type. Want to find resources for processing and interpreting imaging data" alt="For individuals who: Have imaging data and don’t know what to do with it. Want a basic overview of their imaging data type. Want to find resources for processing and interpreting imaging data" width="100%" />
+
+## Topics covered:
+
+<img src="resources/images/01-intro_files/figure-html//1ME0NbcIBmnHJRhX3JJyCwJuuomkl_BjJp6lD5oD5WnU_g11db7c97851_0_143.png" title=" " alt=" " width="100%" />
+
+## Motivation
+
+Cancer imaging data hold untold amounts of information regarding cancer biology but have particular challenges in handling these data properly. Cancer researchers are working to apply their expertise to the analysis of these vast amounts of data but training opportunities to properly equip them in these efforts can be sparse.
+
+Often students and researchers need to utilize imaging data to reach the next steps of their research but may not have formal training in computational methods or the basics of the imaging data they are attempting to utilize.
+
+This course attempts to give this researcher the basic bearings and resources regarding imaging data, in hopes that they will be equipped and informed about how to properly handle the data and obtain insights for cancer biology.
 
 ## Curriculum  
 
-The course covers...
+<img src="resources/images/01-intro_files/figure-html//1ME0NbcIBmnHJRhX3JJyCwJuuomkl_BjJp6lD5oD5WnU_gd422c5de97_0_10.png" title="Overall Course Learning Objectives. This course will demonstrate how too: Understand the overall workflow associated with processing their imaging data  Be aware of caveats based on their specific type of data. Find tutorials to help them process their genomic data. Choose tools for processing their genomic data. Choose tools for interpreting their genomic data " alt="Overall Course Learning Objectives. This course will demonstrate how too: Understand the overall workflow associated with processing their imaging data  Be aware of caveats based on their specific type of data. Find tutorials to help them process their genomic data. Choose tools for processing their genomic data. Choose tools for interpreting their genomic data " width="100%" />
 
+**Goal of this course:**  
+Equip learners with tutorials and resources so they can understand and interpret their imaging data in a way that helps them meet their goals and handle the data properly and appropriately.
+This includes helping learners formulate questions they will need to ask others about their data
 
+**What is not the goal**  
+Teach learners about choosing parameters or about the ins and outs of every imaging tool they might be interested in. This course is meant to connect people to other resources that will help them with the specifics of their imaging data and help learners have more efficient and fruitful discussions about their data with imaging informatic experts.
 
-```r
-devtools::session_info()
-```
+## How to use the course
 
-```
-## ─ Session info ───────────────────────────────────────────────────────────────
-##  setting  value                       
-##  version  R version 4.0.2 (2020-06-22)
-##  os       Ubuntu 20.04.5 LTS          
-##  system   x86_64, linux-gnu           
-##  ui       X11                         
-##  language (EN)                        
-##  collate  en_US.UTF-8                 
-##  ctype    en_US.UTF-8                 
-##  tz       Etc/UTC                     
-##  date     2023-05-24                  
-## 
-## ─ Packages ───────────────────────────────────────────────────────────────────
-##  package     * version date       lib source                            
-##  assertthat    0.2.1   2019-03-21 [1] RSPM (R 4.0.5)                    
-##  bookdown      0.24    2023-03-28 [1] Github (rstudio/bookdown@88bc4ea) 
-##  bslib         0.4.2   2022-12-16 [1] CRAN (R 4.0.2)                    
-##  cachem        1.0.7   2023-02-24 [1] CRAN (R 4.0.2)                    
-##  callr         3.5.0   2020-10-08 [1] RSPM (R 4.0.2)                    
-##  cli           3.6.1   2023-03-23 [1] CRAN (R 4.0.2)                    
-##  crayon        1.3.4   2017-09-16 [1] RSPM (R 4.0.0)                    
-##  desc          1.2.0   2018-05-01 [1] RSPM (R 4.0.3)                    
-##  devtools      2.3.2   2020-09-18 [1] RSPM (R 4.0.3)                    
-##  digest        0.6.25  2020-02-23 [1] RSPM (R 4.0.0)                    
-##  ellipsis      0.3.1   2020-05-15 [1] RSPM (R 4.0.3)                    
-##  evaluate      0.20    2023-01-17 [1] CRAN (R 4.0.2)                    
-##  fansi         0.4.1   2020-01-08 [1] RSPM (R 4.0.0)                    
-##  fastmap       1.1.1   2023-02-24 [1] CRAN (R 4.0.2)                    
-##  fs            1.5.0   2020-07-31 [1] RSPM (R 4.0.3)                    
-##  glue          1.4.2   2020-08-27 [1] RSPM (R 4.0.5)                    
-##  hms           0.5.3   2020-01-08 [1] RSPM (R 4.0.0)                    
-##  htmltools     0.5.5   2023-03-23 [1] CRAN (R 4.0.2)                    
-##  jquerylib     0.1.4   2021-04-26 [1] CRAN (R 4.0.2)                    
-##  jsonlite      1.7.1   2020-09-07 [1] RSPM (R 4.0.2)                    
-##  knitr         1.33    2023-03-28 [1] Github (yihui/knitr@a1052d1)      
-##  lifecycle     1.0.3   2022-10-07 [1] CRAN (R 4.0.2)                    
-##  magrittr      2.0.3   2022-03-30 [1] CRAN (R 4.0.2)                    
-##  memoise       2.0.1   2021-11-26 [1] CRAN (R 4.0.2)                    
-##  ottrpal       1.0.1   2023-03-28 [1] Github (jhudsl/ottrpal@151e412)   
-##  pillar        1.9.0   2023-03-22 [1] CRAN (R 4.0.2)                    
-##  pkgbuild      1.1.0   2020-07-13 [1] RSPM (R 4.0.2)                    
-##  pkgconfig     2.0.3   2019-09-22 [1] RSPM (R 4.0.3)                    
-##  pkgload       1.1.0   2020-05-29 [1] RSPM (R 4.0.3)                    
-##  prettyunits   1.1.1   2020-01-24 [1] RSPM (R 4.0.3)                    
-##  processx      3.4.4   2020-09-03 [1] RSPM (R 4.0.2)                    
-##  ps            1.4.0   2020-10-07 [1] RSPM (R 4.0.2)                    
-##  R6            2.4.1   2019-11-12 [1] RSPM (R 4.0.0)                    
-##  readr         1.4.0   2020-10-05 [1] RSPM (R 4.0.2)                    
-##  remotes       2.2.0   2020-07-21 [1] RSPM (R 4.0.3)                    
-##  rlang         1.1.0   2023-03-14 [1] CRAN (R 4.0.2)                    
-##  rmarkdown     2.10    2023-03-28 [1] Github (rstudio/rmarkdown@02d3c25)
-##  rprojroot     2.0.3   2022-04-02 [1] CRAN (R 4.0.2)                    
-##  sass          0.4.5   2023-01-24 [1] CRAN (R 4.0.2)                    
-##  sessioninfo   1.1.1   2018-11-05 [1] RSPM (R 4.0.3)                    
-##  stringi       1.5.3   2020-09-09 [1] RSPM (R 4.0.3)                    
-##  stringr       1.4.0   2019-02-10 [1] RSPM (R 4.0.3)                    
-##  testthat      3.0.1   2023-03-28 [1] Github (R-lib/testthat@e99155a)   
-##  tibble        3.2.1   2023-03-20 [1] CRAN (R 4.0.2)                    
-##  usethis       1.6.3   2020-09-17 [1] RSPM (R 4.0.2)                    
-##  utf8          1.1.4   2018-05-24 [1] RSPM (R 4.0.3)                    
-##  vctrs         0.6.1   2023-03-22 [1] CRAN (R 4.0.2)                    
-##  withr         2.3.0   2020-09-22 [1] RSPM (R 4.0.2)                    
-##  xfun          0.26    2023-03-28 [1] Github (yihui/xfun@74c2a66)       
-##  yaml          2.2.1   2020-02-01 [1] RSPM (R 4.0.3)                    
-## 
-## [1] /usr/local/lib/R/site-library
-## [2] /usr/local/lib/R/library
-```
+This course is designed to be a jumping off point to more specific resources based on a imaging data type the learner is working with. We encourage learners to follow links to resources we provide and feel free to jump around to chapters that are most useful for them.

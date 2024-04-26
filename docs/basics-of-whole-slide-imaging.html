@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Chapter 14 Basics of Whole Slide Imaging | Cancer Imaging Informatics</title>
+  <meta name="description" content="Description about Course/Book." />
+  <meta name="generator" content="bookdown 0.24 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Chapter 14 Basics of Whole Slide Imaging | Cancer Imaging Informatics" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta property="og:description" content="Description about Course/Book." />
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Chapter 14 Basics of Whole Slide Imaging | Cancer Imaging Informatics" />
+  
+  <meta name="twitter:description" content="Description about Course/Book." />
+  
+
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  <link rel="shortcut icon" href="assets/dasl_favicon.ico" type="image/x-icon" />
+<link rel="prev" href="basics-of-microscopy.html"/>
+<link rel="next" href="basics-of-immunohistochemistry-immunofluorescence-and-multispectral-imaging.html"/>
+<script src="libs/header-attrs-2.10/header-attrs.js"></script>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
+
+
+
+
+<link rel="stylesheet" href="assets/style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<a href="http://jhudatascience.org/"><img src="https://jhudatascience.org/images/dasl.png" style=" width: 80%; padding-left: 40px; padding-top: 8px; vertical-align: top "</a>
+
+<li class="divider"></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>About this Course</a>
+<ul>
+<li class="chapter" data-level="0.1" data-path="index.html"><a href="index.html#available-course-formats"><i class="fa fa-check"></i><b>0.1</b> Available course formats</a></li>
+</ul></li>
+<li class="chapter" data-level="1" data-path="introduction.html"><a href="introduction.html"><i class="fa fa-check"></i><b>1</b> Introduction</a>
+<ul>
+<li class="chapter" data-level="1.1" data-path="introduction.html"><a href="introduction.html#target-audience"><i class="fa fa-check"></i><b>1.1</b> Target Audience</a></li>
+<li class="chapter" data-level="1.2" data-path="introduction.html"><a href="introduction.html#topics-covered"><i class="fa fa-check"></i><b>1.2</b> Topics covered:</a></li>
+<li class="chapter" data-level="1.3" data-path="introduction.html"><a href="introduction.html#motivation"><i class="fa fa-check"></i><b>1.3</b> Motivation</a></li>
+<li class="chapter" data-level="1.4" data-path="introduction.html"><a href="introduction.html#curriculum"><i class="fa fa-check"></i><b>1.4</b> Curriculum</a></li>
+<li class="chapter" data-level="1.5" data-path="introduction.html"><a href="introduction.html#how-to-use-the-course"><i class="fa fa-check"></i><b>1.5</b> How to use the course</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="introduction-to-imaging.html"><a href="introduction-to-imaging.html"><i class="fa fa-check"></i><b>2</b> Introduction to Imaging</a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="introduction-to-imaging.html"><a href="introduction-to-imaging.html#learning-objectives"><i class="fa fa-check"></i><b>2.1</b> Learning Objectives</a></li>
+<li class="chapter" data-level="2.2" data-path="introduction-to-imaging.html"><a href="introduction-to-imaging.html#what-are-general-guidelines-of-using-imaging-data"><i class="fa fa-check"></i><b>2.2</b> What are general guidelines of using imaging data?</a></li>
+<li class="chapter" data-level="2.3" data-path="introduction-to-imaging.html"><a href="introduction-to-imaging.html#an-overview-of-the-imaging-types"><i class="fa fa-check"></i><b>2.3</b> An overview of the imaging types</a>
+<ul>
+<li class="chapter" data-level="2.3.1" data-path="introduction-to-imaging.html"><a href="introduction-to-imaging.html#radiology"><i class="fa fa-check"></i><b>2.3.1</b> Radiology</a></li>
+<li class="chapter" data-level="2.3.2" data-path="introduction-to-imaging.html"><a href="introduction-to-imaging.html#histologypathology"><i class="fa fa-check"></i><b>2.3.2</b> Histology/Pathology</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="introduction-to-imaging-1.html"><a href="introduction-to-imaging-1.html"><i class="fa fa-check"></i><b>3</b> Introduction to Imaging</a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="introduction-to-imaging-1.html"><a href="introduction-to-imaging-1.html#learning-objectives-1"><i class="fa fa-check"></i><b>3.1</b> Learning Objectives</a></li>
+<li class="chapter" data-level="3.2" data-path="introduction-to-imaging-1.html"><a href="introduction-to-imaging-1.html#basics-about-image-file-types"><i class="fa fa-check"></i><b>3.2</b> Basics about image file types</a>
+<ul>
+<li class="chapter" data-level="3.2.1" data-path="introduction-to-imaging-1.html"><a href="introduction-to-imaging-1.html#what-file-prefixes-are-there-and-what-different-file-types-are-common-in-imaging-data"><i class="fa fa-check"></i><b>3.2.1</b> What file prefixes are there and what different file types are common in imaging data?</a></li>
+<li class="chapter" data-level="3.2.2" data-path="introduction-to-imaging-1.html"><a href="introduction-to-imaging-1.html#how-do-you-know-what-files-are-what"><i class="fa fa-check"></i><b>3.2.2</b> How do you know what files are what?</a></li>
+<li class="chapter" data-level="3.2.3" data-path="introduction-to-imaging-1.html"><a href="introduction-to-imaging-1.html#what-kind-of-metadata-is-associated-with-imaging-data"><i class="fa fa-check"></i><b>3.2.3</b> What kind of metadata is associated with imaging data?</a></li>
+</ul></li>
+</ul></li>
+<li class="part"><span><b>Radiology</b></span></li>
+<li class="chapter" data-level="4" data-path="radiology-overview.html"><a href="radiology-overview.html"><i class="fa fa-check"></i><b>4</b> Radiology Overview</a>
+<ul>
+<li class="chapter" data-level="4.1" data-path="radiology-overview.html"><a href="radiology-overview.html#learning-objectives-2"><i class="fa fa-check"></i><b>4.1</b> Learning Objectives</a></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="basics-of-mri.html"><a href="basics-of-mri.html"><i class="fa fa-check"></i><b>5</b> Basics of MRI</a>
+<ul>
+<li class="chapter" data-level="5.1" data-path="basics-of-mri.html"><a href="basics-of-mri.html#learning-objectives-3"><i class="fa fa-check"></i><b>5.1</b> Learning Objectives</a></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="basics-of-x-ray.html"><a href="basics-of-x-ray.html"><i class="fa fa-check"></i><b>6</b> Basics of X-Ray</a>
+<ul>
+<li class="chapter" data-level="6.1" data-path="basics-of-x-ray.html"><a href="basics-of-x-ray.html#learning-objectives-4"><i class="fa fa-check"></i><b>6.1</b> Learning Objectives</a></li>
+</ul></li>
+<li class="chapter" data-level="7" data-path="basics-of-ct.html"><a href="basics-of-ct.html"><i class="fa fa-check"></i><b>7</b> Basics of CT</a>
+<ul>
+<li class="chapter" data-level="7.1" data-path="basics-of-ct.html"><a href="basics-of-ct.html#learning-objectives-5"><i class="fa fa-check"></i><b>7.1</b> Learning Objectives</a></li>
+</ul></li>
+<li class="chapter" data-level="8" data-path="basics-of-pet.html"><a href="basics-of-pet.html"><i class="fa fa-check"></i><b>8</b> Basics of PET</a>
+<ul>
+<li class="chapter" data-level="8.1" data-path="basics-of-pet.html"><a href="basics-of-pet.html#learning-objectives-6"><i class="fa fa-check"></i><b>8.1</b> Learning Objectives</a></li>
+</ul></li>
+<li class="chapter" data-level="9" data-path="basics-of-ultrasound.html"><a href="basics-of-ultrasound.html"><i class="fa fa-check"></i><b>9</b> Basics of Ultrasound</a>
+<ul>
+<li class="chapter" data-level="9.1" data-path="basics-of-ultrasound.html"><a href="basics-of-ultrasound.html#learning-objectives-7"><i class="fa fa-check"></i><b>9.1</b> Learning Objectives</a></li>
+</ul></li>
+<li class="chapter" data-level="10" data-path="considerations-for-choosing-radiology-tools.html"><a href="considerations-for-choosing-radiology-tools.html"><i class="fa fa-check"></i><b>10</b> Considerations for choosing radiology tools</a>
+<ul>
+<li class="chapter" data-level="10.1" data-path="considerations-for-choosing-radiology-tools.html"><a href="considerations-for-choosing-radiology-tools.html#learning-objectives-8"><i class="fa fa-check"></i><b>10.1</b> Learning Objectives</a></li>
+<li class="chapter" data-level="10.2" data-path="considerations-for-choosing-radiology-tools.html"><a href="considerations-for-choosing-radiology-tools.html#tools-for-image-standardization"><i class="fa fa-check"></i><b>10.2</b> Tools for image standardization</a></li>
+<li class="chapter" data-level="10.3" data-path="considerations-for-choosing-radiology-tools.html"><a href="considerations-for-choosing-radiology-tools.html#why-would-you-use-one-tool-over-the-other"><i class="fa fa-check"></i><b>10.3</b> Why would you use one tool over the other?</a></li>
+<li class="chapter" data-level="10.4" data-path="considerations-for-choosing-radiology-tools.html"><a href="considerations-for-choosing-radiology-tools.html#what-parameters-or-caveats-should-be-known-about-each-tool"><i class="fa fa-check"></i><b>10.4</b> What parameters, or caveats should be known about each tool?</a></li>
+</ul></li>
+<li class="part"><span><b>Pathology/Histology</b></span></li>
+<li class="chapter" data-level="11" data-path="pathology-histology-overview.html"><a href="pathology-histology-overview.html"><i class="fa fa-check"></i><b>11</b> Pathology Histology Overview</a>
+<ul>
+<li class="chapter" data-level="11.1" data-path="pathology-histology-overview.html"><a href="pathology-histology-overview.html#learning-objectives-9"><i class="fa fa-check"></i><b>11.1</b> Learning Objectives</a></li>
+</ul></li>
+<li class="chapter" data-level="12" data-path="basics-of-histologypathology-digital-pathology.html"><a href="basics-of-histologypathology-digital-pathology.html"><i class="fa fa-check"></i><b>12</b> Basics of Histology/Pathology &amp; Digital Pathology</a>
+<ul>
+<li class="chapter" data-level="12.1" data-path="basics-of-histologypathology-digital-pathology.html"><a href="basics-of-histologypathology-digital-pathology.html#learning-objectives-10"><i class="fa fa-check"></i><b>12.1</b> Learning Objectives</a></li>
+</ul></li>
+<li class="chapter" data-level="13" data-path="basics-of-microscopy.html"><a href="basics-of-microscopy.html"><i class="fa fa-check"></i><b>13</b> Basics of Microscopy</a>
+<ul>
+<li class="chapter" data-level="13.1" data-path="basics-of-microscopy.html"><a href="basics-of-microscopy.html#learning-objectives-11"><i class="fa fa-check"></i><b>13.1</b> Learning Objectives</a></li>
+</ul></li>
+<li class="chapter" data-level="14" data-path="basics-of-whole-slide-imaging.html"><a href="basics-of-whole-slide-imaging.html"><i class="fa fa-check"></i><b>14</b> Basics of Whole Slide Imaging</a>
+<ul>
+<li class="chapter" data-level="14.1" data-path="basics-of-whole-slide-imaging.html"><a href="basics-of-whole-slide-imaging.html#learning-objectives-12"><i class="fa fa-check"></i><b>14.1</b> Learning Objectives</a></li>
+</ul></li>
+<li class="chapter" data-level="15" data-path="basics-of-immunohistochemistry-immunofluorescence-and-multispectral-imaging.html"><a href="basics-of-immunohistochemistry-immunofluorescence-and-multispectral-imaging.html"><i class="fa fa-check"></i><b>15</b> Basics of Immunohistochemistry, immunofluorescence, and multispectral imaging</a>
+<ul>
+<li class="chapter" data-level="15.1" data-path="basics-of-immunohistochemistry-immunofluorescence-and-multispectral-imaging.html"><a href="basics-of-immunohistochemistry-immunofluorescence-and-multispectral-imaging.html#learning-objectives-13"><i class="fa fa-check"></i><b>15.1</b> Learning Objectives</a></li>
+</ul></li>
+<li class="chapter" data-level="16" data-path="machine-learning-for-pathology.html"><a href="machine-learning-for-pathology.html"><i class="fa fa-check"></i><b>16</b> Machine Learning for Pathology</a>
+<ul>
+<li class="chapter" data-level="16.1" data-path="machine-learning-for-pathology.html"><a href="machine-learning-for-pathology.html#basics-of-machine-learning"><i class="fa fa-check"></i><b>16.1</b> Basics of Machine Learning</a>
+<ul>
+<li class="chapter" data-level="16.1.1" data-path="machine-learning-for-pathology.html"><a href="machine-learning-for-pathology.html#learning-objectives-14"><i class="fa fa-check"></i><b>16.1.1</b> Learning Objectives</a></li>
+</ul></li>
+<li class="chapter" data-level="16.2" data-path="machine-learning-for-pathology.html"><a href="machine-learning-for-pathology.html#tumor-heterogeneitydiversity"><i class="fa fa-check"></i><b>16.2</b> Tumor Heterogeneity/Diversity</a>
+<ul>
+<li class="chapter" data-level="16.2.1" data-path="machine-learning-for-pathology.html"><a href="machine-learning-for-pathology.html#learning-objectives-15"><i class="fa fa-check"></i><b>16.2.1</b> Learning Objectives</a></li>
+</ul></li>
+<li class="chapter" data-level="16.3" data-path="machine-learning-for-pathology.html"><a href="machine-learning-for-pathology.html#tissuecell-segmentation"><i class="fa fa-check"></i><b>16.3</b> Tissue/cell Segmentation</a>
+<ul>
+<li class="chapter" data-level="16.3.1" data-path="machine-learning-for-pathology.html"><a href="machine-learning-for-pathology.html#learning-objectives-16"><i class="fa fa-check"></i><b>16.3.1</b> Learning Objectives</a></li>
+</ul></li>
+<li class="chapter" data-level="16.4" data-path="machine-learning-for-pathology.html"><a href="machine-learning-for-pathology.html#quantification-methods"><i class="fa fa-check"></i><b>16.4</b> Quantification Methods</a>
+<ul>
+<li class="chapter" data-level="16.4.1" data-path="machine-learning-for-pathology.html"><a href="machine-learning-for-pathology.html#learning-objectives-17"><i class="fa fa-check"></i><b>16.4.1</b> Learning Objectives</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="17" data-path="considerations-for-choosing-histology-tools.html"><a href="considerations-for-choosing-histology-tools.html"><i class="fa fa-check"></i><b>17</b> Considerations for choosing histology tools</a>
+<ul>
+<li class="chapter" data-level="17.1" data-path="considerations-for-choosing-histology-tools.html"><a href="considerations-for-choosing-histology-tools.html#learning-objectives-18"><i class="fa fa-check"></i><b>17.1</b> Learning Objectives</a></li>
+<li class="chapter" data-level="17.2" data-path="considerations-for-choosing-histology-tools.html"><a href="considerations-for-choosing-histology-tools.html#tools-for-image-standardization-1"><i class="fa fa-check"></i><b>17.2</b> Tools for image standardization</a></li>
+<li class="chapter" data-level="17.3" data-path="considerations-for-choosing-histology-tools.html"><a href="considerations-for-choosing-histology-tools.html#why-would-you-use-one-tool-over-the-other-1"><i class="fa fa-check"></i><b>17.3</b> Why would you use one tool over the other?</a></li>
+<li class="chapter" data-level="17.4" data-path="considerations-for-choosing-histology-tools.html"><a href="considerations-for-choosing-histology-tools.html#what-parameters-or-caveats-should-be-known-about-each-tool-1"><i class="fa fa-check"></i><b>17.4</b> What parameters, or caveats should be known about each tool?</a></li>
+</ul></li>
+<li class="chapter" data-level="18" data-path="itcr-imaging-tool-glossary.html"><a href="itcr-imaging-tool-glossary.html"><i class="fa fa-check"></i><b>18</b> ITCR Imaging Tool Glossary</a></li>
+<li class="chapter" data-level="" data-path="about-the-authors.html"><a href="about-the-authors.html"><i class="fa fa-check"></i>About the Authors</a></li>
+<li class="chapter" data-level="19" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i><b>19</b> References</a></li>
+<li class="divider"></li>
+<p style="text-align:center;"> <a href="https://github.com/jhudsl/OTTR_Template" target="blank" > This content was published with</a> <a href="https://bookdown.org/" target="blank"> bookdown by:</a> </p>
+<p style="text-align:center;"> <a href="http://jhudatascience.org/"> The Johns Hopkins Data Science Lab </a></p>
+<p style="text-align:center; font-size: 12px;"> <a href="https://github.com/rstudio4edu/rstudio4edu-book/"> Style adapted from: rstudio4edu-book </a> <a href ="https://creativecommons.org/licenses/by/2.0/"> (CC-BY 2.0) </a></p>
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Cancer Imaging Informatics</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<head>
+  <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,initial-scale=1.0">
+  <!--script src="https://kit.fontawesome.com/6a26f47516.js"></script-->
+  <!--<script src="assets/hideOutput.js"></script>-->
+  <link href="assets/style.css" rel="stylesheet">
+</head>
+
+
+
+<div class="hero-image-container">
+  <img class= "hero-image" src= "https://github.com/jhudsl/OTTR_Template/raw/main/assets/dasl_thin_main_image.png">
+</div>
+<div id="basics-of-whole-slide-imaging" class="section level1" number="14">
+<h1><span class="header-section-number">Chapter 14</span> Basics of Whole Slide Imaging</h1>
+<div id="learning-objectives-12" class="section level2" number="14.1">
+<h2><span class="header-section-number">14.1</span> Learning Objectives</h2>
+<p><img src="05c-whole_slide_imaging_files/figure-html/1ME0NbcIBmnHJRhX3JJyCwJuuomkl_BjJp6lD5oD5WnU_gd422c5de97_0_10.png" width="100%" /></p>
+
+</div>
+</div>
+<hr>
+<center> 
+  <div class="footer">
+      All illustrations <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY. </a>
+      <br>
+      All other materials <a href= "https://creativecommons.org/licenses/by/4.0/"> CC-BY </a> unless noted otherwise.
+  </div>
+</center>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="basics-of-microscopy.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="basics-of-immunohistochemistry-immunofluorescence-and-multispectral-imaging.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": null,
+"search": {
+"engine": "fuse",
+"options": null
+},
+"toc": {
+"collapse": "section"
+}
+});
+});
+</script>
+
+</body>
+
+</html>
