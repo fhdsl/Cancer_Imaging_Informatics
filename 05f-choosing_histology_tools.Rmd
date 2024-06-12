@@ -1,0 +1,14 @@
+
+# Considerations for choosing histology tools
+
+## Learning Objectives
+
+```{r, fig.alt = "", out.width = "100%", echo = FALSE}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1ME0NbcIBmnHJRhX3JJyCwJuuomkl_BjJp6lD5oD5WnU/edit#slide=id.gd422c5de97_0_10")
+```
+
+## Tools for image standardization
+
+## Why would you use one tool over the other?
+
+## What parameters, or caveats should be known about each tool?

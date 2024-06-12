@@ -1,0 +1,34 @@
+
+# Machine Learning for Pathology
+
+## Basics of Machine Learning
+
+### Learning Objectives
+
+```{r, fig.alt = "", out.width = "100%", echo = FALSE}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1ME0NbcIBmnHJRhX3JJyCwJuuomkl_BjJp6lD5oD5WnU/edit#slide=id.gd422c5de97_0_10")
+```
+
+## Tumor Heterogeneity/Diversity
+
+### Learning Objectives
+
+```{r, fig.alt = "", out.width = "100%", echo = FALSE}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1ME0NbcIBmnHJRhX3JJyCwJuuomkl_BjJp6lD5oD5WnU/edit#slide=id.gd422c5de97_0_10")
+```
+
+## Tissue/cell Segmentation
+
+### Learning Objectives
+
+```{r, fig.alt = "", out.width = "100%", echo = FALSE}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1ME0NbcIBmnHJRhX3JJyCwJuuomkl_BjJp6lD5oD5WnU/edit#slide=id.gd422c5de97_0_10")
+```
+
+## Quantification Methods
+
+### Learning Objectives
+
+```{r, fig.alt = "", out.width = "100%", echo = FALSE}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1ME0NbcIBmnHJRhX3JJyCwJuuomkl_BjJp6lD5oD5WnU/edit#slide=id.gd422c5de97_0_10")
+```
