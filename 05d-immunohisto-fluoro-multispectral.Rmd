@@ -1,0 +1,8 @@
+
+# Basics of Immunohistochemistry, immunofluorescence, and  multispectral imaging
+
+## Learning Objectives
+
+```{r, fig.alt = "", out.width = "100%", echo = FALSE}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1ME0NbcIBmnHJRhX3JJyCwJuuomkl_BjJp6lD5oD5WnU/edit#slide=id.gd422c5de97_0_10")
+```
