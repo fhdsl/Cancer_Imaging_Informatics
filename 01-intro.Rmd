@@ -34,7 +34,7 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1ME0NbcIBmnHJRhX3
 
 ## Motivation
 
-Cancer imaging data hold untold amounts of information regarding cancer biology but have particular challenges in handling these data properly. Cancer researchers are working to apply their expertise to the analysis of these vast amounts of data but training opportunities to properly equip them in these efforts can be sparse.
+Cancer imaging data hold untold amounts of information regarding cancer biology, but there are intrinsic challenges in handling this particular type of data properly. Cancer researchers are working to apply their expertise to the analysis of these vast amounts of data but training opportunities to properly equip them in these efforts can be sparse.
 
 Often students and researchers need to utilize imaging data to reach the next steps of their research but may not have formal training in computational methods or the basics of the imaging data they are attempting to utilize.
 
