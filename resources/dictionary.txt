@@ -25,6 +25,11 @@ mentorship
 NCI
 NHGRI
 ottrpal
+immunofluorescence
+Immunohistochemistry
+informatic
+multispectral
+wikipedia
 Pandoc
 UE
 UE5
