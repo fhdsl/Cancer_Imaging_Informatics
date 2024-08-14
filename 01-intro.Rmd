@@ -51,7 +51,7 @@ Equip learners with tutorials and resources so they can understand and interpret
 This includes helping learners formulate questions they will need to ask others about their data
 
 **What is not the goal**  
-Teach learners about choosing parameters or about the ins and outs of every imaging tool they might be interested in. This course is meant to connect people to other resources that will help them with the specifics of their imaging data and help learners have more efficient and fruitful discussions about their data with imaging informatic experts.
+Teach learners about choosing parameters or about the ins and outs of every imaging tool they might be interested in. This course is meant to connect people to other resources that will help them with the specifics of their imaging data and help learners have more efficient and fruitful discussions about their data with imaging informatics experts.
 
 ## How to use the course
 
