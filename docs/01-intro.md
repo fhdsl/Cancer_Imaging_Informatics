@@ -3,7 +3,7 @@
 
 # Introduction
 
-![](resources/images/01-intro_files/figure-docx//1ME0NbcIBmnHJRhX3JJyCwJuuomkl_BjJp6lD5oD5WnU_gd422c5de97_0_0.png){width=100%}
+<img src="resources/images/01-intro_files/figure-html//1ME0NbcIBmnHJRhX3JJyCwJuuomkl_BjJp6lD5oD5WnU_gd422c5de97_0_0.png" width="100%" />
 
 This is a *living* course meaning it is constantly changing and being updated. The goal for this course is to be a "wikipedia" of imaging data.
 If you'd like to contribute, [you can file a pull request on GitHub](https://github.com/fhdsl/Cancer_Imaging_Informatics) if you are comfortable with that sort of thing or email `csavonen@fredhutch.org` to ask how to get started.
@@ -18,11 +18,11 @@ _This course is written for individuals who:_
 - Want a basic overview of imaging data types.
 - Want to find resources for processing and interpreting imaging data.
 
-![](resources/images/01-intro_files/figure-docx//1ME0NbcIBmnHJRhX3JJyCwJuuomkl_BjJp6lD5oD5WnU_g116525eff64_0_96.png){width=100%}
+<img src="resources/images/01-intro_files/figure-html//1ME0NbcIBmnHJRhX3JJyCwJuuomkl_BjJp6lD5oD5WnU_g116525eff64_0_96.png" alt="For individuals who: Have imaging data and don’t know what to do with it. Want a basic overview of their imaging data type. Want to find resources for processing and interpreting imaging data" width="100%" />
 
 ## Topics covered:
 
-![](resources/images/01-intro_files/figure-docx//1ME0NbcIBmnHJRhX3JJyCwJuuomkl_BjJp6lD5oD5WnU_g11db7c97851_0_143.png){width=100%}
+<img src="resources/images/01-intro_files/figure-html//1ME0NbcIBmnHJRhX3JJyCwJuuomkl_BjJp6lD5oD5WnU_g11db7c97851_0_143.png" alt=" " width="100%" />
 
 ## Motivation
 
@@ -34,7 +34,7 @@ This course attempts to give this researcher the basic bearings and resources re
 
 ## Curriculum  
 
-![](resources/images/01-intro_files/figure-docx//1ME0NbcIBmnHJRhX3JJyCwJuuomkl_BjJp6lD5oD5WnU_gd422c5de97_0_10.png){width=100%}
+<img src="resources/images/01-intro_files/figure-html//1ME0NbcIBmnHJRhX3JJyCwJuuomkl_BjJp6lD5oD5WnU_gd422c5de97_0_10.png" alt="Overall Course Learning Objectives. This course will demonstrate how too: Understand the overall workflow associated with processing their imaging data  Be aware of caveats based on their specific type of data. Find tutorials to help them process their genomic data. Choose tools for processing their genomic data. Choose tools for interpreting their genomic data " width="100%" />
 
 **Goal of this course:**  
 Equip learners with tutorials and resources so they can understand and interpret their imaging data in a way that helps them meet their goals and handle the data properly and appropriately.

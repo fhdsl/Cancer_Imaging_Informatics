@@ -1,17 +1,17 @@
 ---
-title: "Cancer Imaging Informatics"
+title: "Informatics Technology for Cancer Research (ITCR): Cancer Imaging Informatics "
 date: "August, 2024"
 site: bookdown::bookdown_site
 documentclass: book
-bibliography: [book.bib]
+bibliography: [book.bib, packages.bib]
 biblio-style: apalike
 link-citations: yes
 description: "Description about Course/Book."
-favicon: assets/dasl_favicon.ico
-output:
-    bookdown::word_document2:
-      toc: true
+favicon: assets/ITN_favicon.ico
 ---
+
+
+
 
 # About this Course {-}
 

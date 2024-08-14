@@ -57,6 +57,7 @@ These credits are based on our [course contributors table guidelines](https://ww
 ## ─ Packages ───────────────────────────────────────────────────────────────────
 ##  package     * version date (UTC) lib source
 ##  bookdown      0.39.1  2024-06-11 [1] Github (rstudio/bookdown@f244cf1)
+##  bslib         0.6.1   2023-11-28 [1] RSPM (R 4.3.0)
 ##  cachem        1.0.8   2023-05-01 [1] RSPM (R 4.3.0)
 ##  cli           3.6.2   2023-12-11 [1] RSPM (R 4.3.0)
 ##  devtools      2.4.5   2022-10-11 [1] RSPM (R 4.3.0)
@@ -69,6 +70,8 @@ These credits are based on our [course contributors table guidelines](https://ww
 ##  htmltools     0.5.7   2023-11-03 [1] RSPM (R 4.3.0)
 ##  htmlwidgets   1.6.4   2023-12-06 [1] RSPM (R 4.3.0)
 ##  httpuv        1.6.14  2024-01-26 [1] RSPM (R 4.3.0)
+##  jquerylib     0.1.4   2021-04-26 [1] RSPM (R 4.3.0)
+##  jsonlite      1.8.8   2023-12-04 [1] RSPM (R 4.3.0)
 ##  knitr         1.47.3  2024-06-11 [1] Github (yihui/knitr@e1edd34)
 ##  later         1.3.2   2023-12-06 [1] RSPM (R 4.3.0)
 ##  lifecycle     1.0.4   2023-11-07 [1] RSPM (R 4.3.0)
@@ -86,6 +89,7 @@ These credits are based on our [course contributors table guidelines](https://ww
 ##  remotes       2.4.2.1 2023-07-18 [1] RSPM (R 4.3.0)
 ##  rlang         1.1.4   2024-06-04 [1] CRAN (R 4.3.2)
 ##  rmarkdown     2.27.1  2024-06-11 [1] Github (rstudio/rmarkdown@e1c93a9)
+##  sass          0.4.8   2023-12-06 [1] RSPM (R 4.3.0)
 ##  sessioninfo   1.2.2   2021-12-06 [1] RSPM (R 4.3.0)
 ##  shiny         1.8.0   2023-11-17 [1] RSPM (R 4.3.0)
 ##  stringi       1.8.3   2023-12-11 [1] RSPM (R 4.3.0)
