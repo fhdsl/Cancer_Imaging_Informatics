@@ -1,6 +1,6 @@
 ---
 title: "Informatics Technology for Cancer Research (ITCR): Cancer Imaging Informatics "
-date: "August, 2024"
+date: "June, 2025"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: [book.bib, packages.bib]
